@@ -10,6 +10,8 @@ namespace ScrumProject
     {
         static void Main(string[] args)
         {
+            List<Member> members = new List<Member>();
+            int id = 1;
             int menuchoice;
             while (true)
             {
@@ -19,6 +21,8 @@ namespace ScrumProject
                     case 0:
                         return;
                     case 1:
+                        AddMember(members, id);
+                        id++;
                         break;
                     case 2:
                         break;
@@ -91,6 +95,24 @@ namespace ScrumProject
                 ContinueOnKeyPressed();
             }
             return menuChoice;
+        }
+
+        static void AddMember(List<Member> members, int id)
+        {
+            string name, surname;
+            int number;
+            Console.Write("Ange förnamn: ");
+            name = Console.ReadLine();
+            Console.Write("Ange efternamn: ");
+            surname = Console.ReadLine();
+            Console.Write("Ange telefonnummer: ");
+            number = int.Parse(Console.ReadLine());
+            members.Add(new Member(){
+                Name = name,
+                Surname = surname,
+                Number = number,
+                IdNumber = id
+            });
         }
     }
 }
