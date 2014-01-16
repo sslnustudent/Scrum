@@ -4,3 +4,9 @@ C:\Users\Sebastian Svensson\Desktop\GitHub\Scrum\ScrumProject\ScrumProject\bin\D
 C:\Users\Sebastian Svensson\Desktop\GitHub\Scrum\ScrumProject\ScrumProject\obj\Debug\ScrumProject.csprojResolveAssemblyReference.cache
 C:\Users\Sebastian Svensson\Desktop\GitHub\Scrum\ScrumProject\ScrumProject\obj\Debug\ScrumProject.exe
 C:\Users\Sebastian Svensson\Desktop\GitHub\Scrum\ScrumProject\ScrumProject\obj\Debug\ScrumProject.pdb
+C:\Users\ss222tb\Documents\GitHub\Scrum\ScrumProject\ScrumProject\bin\Debug\ScrumProject.exe.config
+C:\Users\ss222tb\Documents\GitHub\Scrum\ScrumProject\ScrumProject\obj\Debug\ScrumProject.exe
+C:\Users\ss222tb\Documents\GitHub\Scrum\ScrumProject\ScrumProject\obj\Debug\ScrumProject.pdb
+C:\Users\ss222tb\Documents\GitHub\Scrum\ScrumProject\ScrumProject\bin\Debug\ScrumProject.exe
+C:\Users\ss222tb\Documents\GitHub\Scrum\ScrumProject\ScrumProject\bin\Debug\ScrumProject.pdb
+C:\Users\ss222tb\Documents\GitHub\Scrum\ScrumProject\ScrumProject\obj\Debug\ScrumProject.csprojResolveAssemblyReference.cache
