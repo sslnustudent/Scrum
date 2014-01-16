@@ -11,7 +11,7 @@ namespace ScrumProject
         static void Main(string[] args)
         {
             List<Member> members = new List<Member>();
-           /* members.Add(new Member()
+            /* members.Add(new Member()
             {
                 Name = "Lars",
                 Surname = "Sturesson",
@@ -360,7 +360,7 @@ namespace ScrumProject
 
                                             if (key.Key == ConsoleKey.J)
                                             {
-                                                members[id].Name = newValue;
+                                                members[id - 1].Name = newValue;
                                                 Console.Clear();
                                                 Console.BackgroundColor = ConsoleColor.DarkGreen;
                                                 Console.ForegroundColor = ConsoleColor.White;
@@ -403,7 +403,7 @@ namespace ScrumProject
 
                                             if (key.Key == ConsoleKey.J)
                                             {
-                                                members[id].Surname = newValue;
+                                                members[id - 1].Surname = newValue;
                                                 Console.Clear();
                                                 Console.BackgroundColor = ConsoleColor.DarkGreen;
                                                 Console.ForegroundColor = ConsoleColor.White;
